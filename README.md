@@ -5,4 +5,11 @@ Changes will be made:
   , Alliance mechanics
   , Joint ownership of properties
   , Automatic counting of the turns for keeping track of loans
-  , Algorithm for government aid and taxes"
+  , Algorithm for government aid and taxes
+  ,"Pass" mechanic and implementation of its function
+  ,Evaluation algorithm for alliance option (similar to trade algorithm)
+  ,Game-master assistant for equilibration between players"
+  NOTE: manage_pass function is not in operation and the future can not be used. calculate_interest_rate function will
+  be adjusted to give reasonable rates at the early-game period, event counter will be used to give weighted inflation
+  rates until the majority of the properties are possesed by players.
+
